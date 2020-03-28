@@ -16,4 +16,4 @@
 
 e.g
 
-![](http://raw.githubusercontent.com/ljlVink/WJX-Fastanswer/master/1.jpg)
+![Image text](http://raw.githubusercontent.com/ljlVink/WJX-Fastanswer/master/1.jpg)
