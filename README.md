@@ -10,4 +10,6 @@
 
 对于Linux&Mac用户，请自行用G++编译(g++不再赘述)
 
-1.
+1.点击release
+
+![](https://cdn.luogu.com.cn/upload/image_hosting/0hs4gs3m.png)
