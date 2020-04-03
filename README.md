@@ -12,4 +12,4 @@
 
 1.点击release
 
-![](https://cdn.luogu.com.cn/upload/image_hosting/0hs4gs3m.png)
+![点击release](https://cdn.luogu.com.cn/upload/image_hosting/0hs4gs3m.png)
