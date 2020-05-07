@@ -1,12 +1,12 @@
 #include<bits/stdc++.h>
 #include<windows.h>
 using namespace std;
-int t;///ÌâÄ¿Êı
+int t;///é¢˜ç›®æ•° 
 int starth;
 struct ans{
     string question;
 
-}q[10000+5];
+}q[10000+5]; 
 struct tiankong_question{
     string qtk;
 }R[10000+5];
@@ -17,47 +17,47 @@ string isnameyes;
 int main(int argc, char** argv){
     int xz=0;
     if(stricmp(argv[1],"Vink")!=0)
-    MessageBox(NULL,"Final version 3 2020/4/18 15:44\nPowered By Vink\n","ÓÃ»§°æ±¾",MB_OK+48);
-    cout<<"Ñ¡ÔñÌâ(1/0)";
+    MessageBox(NULL,"Final version 3 2020/4/18 15:44\nPowered By Vink\n","ç”¨æˆ·ç‰ˆæœ¬",MB_OK+48);
+    cout<<"é€‰æ‹©é¢˜(1/0)";
     cin>>xz;
     if(xz){
-        cout<<"Ñ¡ÔñÌâÌâÄ¿Êı\n";
+        cout<<"é€‰æ‹©é¢˜é¢˜ç›®æ•°\n";
         cin>>t;
         if(t>0){
-            cout<<"ÇëÊäÈëÑ¡ÔñÌâÆğÊ¼Í·";
+            cout<<"è¯·è¾“å…¥é€‰æ‹©é¢˜èµ·å§‹å¤´";
             cin>>starth;
-            cout<<"ºÃµÄ£¬ÇëÄúÊäÈë¶ÔÓ¦ÌâµÄ´ğ°¸\n";
+            cout<<"å¥½çš„ï¼Œè¯·æ‚¨è¾“å…¥å¯¹åº”é¢˜çš„ç­”æ¡ˆ\n";
             for(int i=starth;i<=t+starth-1;i++){
-                cout<<"ÊäÈëÑ¡ÏîÑ¡ÔñµÚ"<<i-starth+1<<"Ìâ"<<":";
+                cout<<"è¾“å…¥é€‰é¡¹é€‰æ‹©ç¬¬"<<i-starth+1<<"é¢˜"<<":";
                 cin>>q[i].question;
             }
         }
         else xz=0;
     }
-    cout<<"ÊÇ·ñÓĞÌî¿ÕÌâ,1ÓĞ0Ã»ÓĞ"<<endl;
+    cout<<"æ˜¯å¦æœ‰å¡«ç©ºé¢˜,1æœ‰0æ²¡æœ‰"<<endl;
     cin>>tk;
     if(tk==1){
-        cout<<"Ìî¿ÕÌâ¸öÊı\n";
+        cout<<"å¡«ç©ºé¢˜ä¸ªæ•°\n";
         cin>>numtk;
         getchar();
         if(numtk>0){
             for(int i=1;i<=numtk;i++){
-                cout<<"ÇëÊäÈëÌî¿ÕÌâµÚ"<<i<<"Ìâ:";
+                cout<<"è¯·è¾“å…¥å¡«ç©ºé¢˜ç¬¬"<<i<<"é¢˜:";
                 getline(cin,R[i].qtk);
             }
         }
         else tk=0;
     }
-    cout<<"ĞÕÃû?(1/0)";
+    cout<<"å§“å?(1/0)";
     cin>>isname;
     if(isname){
-        cout<<"ÊäÈëĞÕÃû\n";
+        cout<<"è¾“å…¥å§“å\n";
         cin>>isnameyes;
     }
     int submit=0;
-    cout<<"Ìá½»°´¼ü?(1/0)"<<endl;
+    cout<<"æäº¤æŒ‰é”®?(1/0)"<<endl;
     cin>>submit;
-    cout<<"OK,ÕıÔÚÉú³ÉÑ¡ÔñÌâ¿ìËÙ´ğÌâ´úÂëµ½output.txt\n";
+    cout<<"OK,æ­£åœ¨ç”Ÿæˆé€‰æ‹©é¢˜å¿«é€Ÿç­”é¢˜ä»£ç åˆ°output.txt\n";
 
     ///make-config-file
     freopen("backupfile-do-not-open-or-delete","w",stdout);
@@ -123,8 +123,8 @@ int main(int argc, char** argv){
         cout<<"document.getElementById("<<'"'<<"submit_button"<<'"'<<").click();\n";
 
     }
-    MessageBox(NULL,"Ö´ĞĞÍê±Ïµ½output.txt£¬Çë°´ÈÎÒâ¼üÍË³ö","WARNINGS",MB_OK+48);
+    MessageBox(NULL,"æ‰§è¡Œå®Œæ¯•åˆ°output.txtï¼Œè¯·æŒ‰ä»»æ„é”®é€€å‡º","WARNINGS",MB_OK+48);
     system("pause >nul");
     return 0;
 }
-///MessageBox(NULL,"Ö´ĞĞÍê±Ïµ½output.txt£¬Çë°´ÈÎÒâ¼üÍË³ö","WARNINGS",MB_OK+48);
+///MessageBox(NULL,"æ‰§è¡Œå®Œæ¯•åˆ°output.txtï¼Œè¯·æŒ‰ä»»æ„é”®é€€å‡º","WARNINGS",MB_OK+48);
