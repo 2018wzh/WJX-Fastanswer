@@ -3,7 +3,7 @@
 
 # 问卷星快速交题器
 
-2020-5.6
+$\color{red}{red}$警告:Vink开学了，停止维护
 
 V4.1正式发布,点击[release](https://github.com/ljlVink/WJX-Fastanswer/releases)即可下载用户程序
 
